@@ -1,5 +1,9 @@
 const gulp = require('gulp');
 const watch = require('gulp-watch');
+const postcss = require('gulp-postcss');
+const autoprefixer = require('autoprefixer');
+const cssvars = require('postcss-simple-vars');
+const nested = require('postcss-nested');
 
 gulp.task('default', () => {
   console.log('Created gulp task');
@@ -10,7 +14,9 @@ gulp.task('html', () => {
 })
 
 gulp.task('style', () => {
-  console.log('Something is beign done with CSS STYLE');
+  return gulp.src('./style.css')
+    .pipe(postcss([cssvars, nested, autoprefixer]))
+    .pipe(gulp.dest('./dist/'));
 })
 
 gulp.task('watch', () => {

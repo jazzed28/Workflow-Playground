@@ -1,3 +1,14 @@
+$primary-color: #363636;
+
 body {
-  background-color: #fff;
-}
+  background-color: $primary-color;
+  columns: 300px 2;
+
+  h1 {
+    color: yellow;
+  }
+  
+  h2 {
+    text-decoration: none;
+  }
+} 
