@@ -466,11 +466,24 @@ img {
   position: relative;
 }
 
-.large-hero__text {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  text-align: center;
-  color: #fff;
-}
+.large-hero__text-content {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: scale(-50%);
+            transform: scale(-50%);
+    left: 0;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+  }
+
+.large-hero__title {
+    font-weight: 700;
+    font-size: 32px;
+  }
+
+.large-hero__subtitle {
+    font-weight: 300;
+    font-size: 20px;
+    color: #ccc;
+  }

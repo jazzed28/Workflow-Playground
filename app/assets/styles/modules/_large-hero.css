@@ -2,14 +2,30 @@
   background-color: #ebebeb;
   width: 100%;
   position: relative;
+
+  &__text-content {
+    position: absolute;
+    top: 50%;
+    transform: scale(-50%);
+    left: 0;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+  }
+
+  &__title {
+    font-weight: 700;
+    font-size: 32px;
+  }
+
+  &__subtitle {
+    font-weight: 300;
+    font-size: 20px;
+    color: #ccc;
+  }
 }
 
-.large-hero__text {
-  position: absolute;
-  top: 50%;
-  transform: scale(-50%);
-  left: 0;
-  width: 100%;
-  text-align: center;
-  color: #fff;
-}
+
+
+
+
