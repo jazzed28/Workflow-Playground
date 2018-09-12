@@ -474,16 +474,40 @@ img {
     left: 0;
     width: 100%;
     text-align: center;
-    color: #fff;
+    color: #fafafa;
   }
 
 .large-hero__title {
     font-weight: 700;
     font-size: 32px;
+    margin: 0;
   }
 
 .large-hero__subtitle {
     font-weight: 300;
     font-size: 20px;
     color: #ccc;
+  }
+
+.large-hero__description {
+    color: #aaa;
+    font-size: 15px;
+  }
+
+.btn {
+  background-color: #fafafa;
+  color: #333;
+  padding: 10px 7px;
+  border: 1px solid #275555;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.btn--orange {
+    background-color: #d59541;
+  }
+
+.btn--large {
+    font-size: 20px;
+    padding: 15px 20px;
   }

@@ -7,7 +7,7 @@ const nested = require('postcss-nested');
 const cssImport = require('postcss-import');
 
 const htmlPath = './dist/index.html';
-const cssPath = './app/assets/styles/style.css';
+const cssSourcePath = './app/assets/styles/style.css';
 
 gulp.task('default', () => {
   console.log('Created gulp task');
@@ -19,7 +19,7 @@ gulp.task('html', () => {
 
 gulp.task('style', () => {
   console.log('Something is being done with CSS');
-  return gulp.src(cssPath)
+  return gulp.src(cssSourcePath)
     .pipe(postcss([cssImport, cssvars, nested, autoprefixer]))
     .pipe(gulp.dest('./dist/'));
 })
@@ -29,7 +29,7 @@ gulp.task('watch', () => {
     gulp.start('html');
   })
 
-  watch(cssPath, () => {
+  watch('./app/assets/styles/**/*.css', () => {
     gulp.start('style');
   })
 })
