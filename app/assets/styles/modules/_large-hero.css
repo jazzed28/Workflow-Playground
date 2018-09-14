@@ -15,14 +15,30 @@
 
   &__title {
     font-weight: 700;
-    font-size: 32px;
     margin: 0;
+    font-size: 18px;
+
+    @mixin atSmall {
+      font-size: 24px;
+    }
+
+    @mixin atMedium {
+      font-size: 32px;
+    }
+
+    @mixin atLarge {
+      font-size: 40px;
+    }
   }
 
   &__subtitle {
     font-weight: 300;
-    font-size: 20px;
+    font-size: 15px;
     color: #ccc;
+
+    @mixin atSmall {
+      font-size: 20px;
+    }
   }
 
   &__description {

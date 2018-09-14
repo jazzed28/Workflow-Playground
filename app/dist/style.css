@@ -460,6 +460,24 @@ img {
   height: auto;
 }
 
+@define-mixin atSmall {
+  @media (min-width: 530px) {
+    @mixin-content;
+  }
+}
+
+@define-mixin atMedium {
+  @media (min-width: 800px) {
+    @mixin-content;
+  }
+}
+
+@define-mixin atLarge {
+  @media (min-width: 1200px) {
+    @mixin-content;
+  }
+}
+
 .large-hero {
   background-color: #ebebeb;
   width: 100%;
@@ -479,14 +497,30 @@ img {
 
 .large-hero__title {
     font-weight: 700;
-    font-size: 32px;
     margin: 0;
+    font-size: 18px;
+
+    @mixin atSmall {
+      font-size: 24px;
+    }
+
+    @mixin atMedium {
+      font-size: 32px;
+    }
+
+    @mixin atLarge {
+      font-size: 40px;
+    }
   }
 
 .large-hero__subtitle {
     font-weight: 300;
-    font-size: 20px;
+    font-size: 15px;
     color: #ccc;
+
+    @mixin atSmall {
+      font-size: 20px;
+    }
   }
 
 .large-hero__description {
