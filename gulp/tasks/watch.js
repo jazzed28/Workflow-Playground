@@ -23,6 +23,6 @@ gulp.task('watch', () => {
 })
 
 gulp.task('cssInject', ['style'],() => {
-  return gulp.src('./app/dist/style.css')
+  return gulp.src('./app/dist/styles.css')
     .pipe(browserSync.stream());
 })

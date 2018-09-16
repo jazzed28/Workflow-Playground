@@ -6,7 +6,7 @@ const nested = require('postcss-nested');
 const cssImport = require('postcss-import');
 const mixins = require('postcss-mixins');
 
-const cssSourcePath = './app/assets/styles/style.css';
+const cssSourcePath = './app/assets/styles/styles.css';
 
 gulp.task('style', () => {
   console.log('Something is being done with CSS');
@@ -16,5 +16,5 @@ gulp.task('style', () => {
       console.log(error.toString());
       this.emit('end');
     })
-    .pipe(gulp.dest('./app/dist/'));
+    .pipe(gulp.dest('./app/dist'));
 })

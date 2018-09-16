@@ -460,24 +460,6 @@ img {
   height: auto;
 }
 
-@define-mixin atSmall {
-  @media (min-width: 530px) {
-    @mixin-content;
-  }
-}
-
-@define-mixin atMedium {
-  @media (min-width: 800px) {
-    @mixin-content;
-  }
-}
-
-@define-mixin atLarge {
-  @media (min-width: 1200px) {
-    @mixin-content;
-  }
-}
-
 .large-hero {
   background-color: #ebebeb;
   width: 100%;
@@ -489,9 +471,8 @@ img {
     top: 50%;
     -webkit-transform: scale(-50%);
             transform: scale(-50%);
-    left: 0;
+    left: 0; 
     width: 100%;
-    text-align: center;
     color: #fafafa;
   }
 
@@ -499,34 +480,79 @@ img {
     font-weight: 700;
     margin: 0;
     font-size: 18px;
+  }
 
-    @mixin atSmall {
-      font-size: 24px;
-    }
+@media (min-width: 530px) {
 
-    @mixin atMedium {
-      font-size: 32px;
-    }
+.large-hero__title {
+      font-size: 24px
+  }
+  }
 
-    @mixin atLarge {
-      font-size: 40px;
-    }
+@media (min-width: 800px) {
+
+.large-hero__title {
+      font-size: 32px
+  }
+  }
+
+@media (min-width: 1200px) {
+
+.large-hero__title {
+      font-size: 40px
+  }
   }
 
 .large-hero__subtitle {
     font-weight: 300;
     font-size: 15px;
     color: #ccc;
+  }
 
-    @mixin atSmall {
-      font-size: 20px;
-    }
+@media (min-width: 530px) {
+
+.large-hero__subtitle {
+      font-size: 20px
+  }
   }
 
 .large-hero__description {
     color: #aaa;
     font-size: 15px;
   }
+
+.wrapper {
+  padding-left: 18px;
+  padding-right: 18px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.row {
+  width: 100%;
+  position: relative;
+}
+
+.col:after {
+    content: " ";
+    clear: both;
+    display: table;
+  }
+
+.col__1-of-2 {
+    float: left;
+    width: 48%;
+    padding: 0.2rem 0.5rem;
+  }
+
+.page-section {
+  padding: 4rem 0;
+}
+
+.headline {
+  font-weight: 300;
+  text-align: center;
+}
 
 .btn {
   background-color: #fafafa;
@@ -537,8 +563,8 @@ img {
   text-decoration: none;
 }
 
-.btn--orange {
-    background-color: #d59541;
+.btn--blue {
+    background-color: #0099CC;
   }
 
 .btn--large {

@@ -1,0 +1,15 @@
+.col {
+  
+  &:after {
+    content: " ";
+    clear: both;
+    display: table;
+  }
+
+  &__1-of-2 {
+    float: left;
+    width: 48%;
+    padding: 0.2rem 0.5rem;
+  }
+
+}
