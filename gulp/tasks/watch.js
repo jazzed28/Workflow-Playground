@@ -22,7 +22,7 @@ gulp.task('watch', () => {
   })
 })
 
-gulp.task('cssInject', ['style'],() => {
+gulp.task('cssInject', ['style'], () => {
   return gulp.src('./app/dist/styles.css')
     .pipe(browserSync.stream());
 })

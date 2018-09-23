@@ -549,6 +549,10 @@ img {
   padding: 4rem 0;
 }
 
+.section-title__icon {
+    display: inline-block;
+  }
+
 .headline {
   font-weight: 300;
   text-align: center;
@@ -570,4 +574,308 @@ img {
 .btn--large {
     font-size: 20px;
     padding: 15px 20px;
+  }
+
+.icon {
+      background-image: url('/assets/images/sprites/sprite-c06ed03c.svg');
+    }
+
+.icon--avatar {
+    width: 482.9px;
+    height: 482.9px;
+    background-position: 58.146483735603105% 16.659198235152186%;
+  }
+
+.icon--avatar-1 {
+    width: 472.6px;
+    height: 472.6px;
+    background-position: 86.52029432708284% 48.842824757848454%;
+  }
+
+.icon--back {
+    width: 477.18px;
+    height: 477.18px;
+    background-position: 42.54238194555858% 83.75510007499602%;
+  }
+
+.icon--book {
+    width: 485.5px;
+    height: 485.5px;
+    background-position: 28.96500372300819% 50.57132999827497%;
+  }
+
+.icon--cancel {
+    width: 475.2px;
+    height: 475.2px;
+    background-position: 86.58708949462557% 0;
+  }
+
+.icon--chat {
+    width: 477.5px;
+    height: 477.5px;
+    background-position: 0 83.76432134870117%;
+  }
+
+.icon--chat-1 {
+    width: 477.6px;
+    height: 477.6px;
+    background-position: 72.41576038509538% 65.85707404349024%;
+  }
+
+.icon--chat-2 {
+    width: 473px;
+    height: 473px;
+    background-position: 86.53056379821959% 32.600824458948814%;
+  }
+
+.icon--copy {
+    width: 488.3px;
+    height: 488.3px;
+    background-position: 0 16.911627585730567%;
+  }
+
+.icon--dislike {
+    width: 478.17px;
+    height: 478.17px;
+    background-position: 72.42802756751456% 49.41445301342474%;
+  }
+
+.icon--download {
+    width: 479px;
+    height: 479px;
+    background-position: 72.44589774078479% 0;
+  }
+
+.icon--download-1 {
+    width: 471.2px;
+    height: 471.2px;
+    background-position: 0 99.97631145289753%;
+  }
+
+.icon--edit {
+    width: 469.33px;
+    height: 469.33px;
+    background-position: 41.90095652508989% 99.91216844445509%;
+  }
+
+.icon--envelope {
+    width: 483.3px;
+    height: 483.3px;
+    background-position: 58.153406554156625% 0;
+  }
+
+.icon--folder {
+    width: 481.2px;
+    height: 481.2px;
+    background-position: 43.00374799214706% 67.24920766156814%;
+  }
+
+.icon--garbage {
+    width: 486.4px;
+    height: 486.4px;
+    background-position: 43.691831019484006% 33.60677802319161%;
+  }
+
+.icon--glasses {
+    width: 487.8px;
+    height: 487.8px;
+    background-position: 0 33.76873144119882%;
+  }
+
+.icon--hand {
+    width: 467.5px;
+    height: 467.5px;
+    background-position: 69.67767738112872% 99.84947711297787%;
+  }
+
+.icon--headphones {
+    width: 467.2px;
+    height: 467.2px;
+    background-position: 83.52005450559867% 99.8392073505211%;
+  }
+
+.icon--heart {
+    width: 471.7px;
+    height: 471.7px;
+    background-position: 86.49719692700145% 65.05545445180785%;
+  }
+
+.icon--house {
+    width: 486.2px;
+    height: 486.2px;
+    background-position: 14.487011439466157% 50.583546138449854%;
+  }
+
+.icon--like {
+    width: 478.2px;
+    height: 478.2px;
+    background-position: 72.4286733238231% 32.95822148805836%;
+  }
+
+.icon--link {
+    width: 482.8px;
+    height: 482.8px;
+    background-position: 58.144753288494734% 49.94485040672826%;
+  }
+
+.icon--logout {
+    width: 471.2px;
+    height: 471.2px;
+    background-position: 27.949463194732783% 99.97631145289753%;
+  }
+
+.icon--magnifying-glass {
+    width: 451px;
+    height: 451px;
+    background-position: 99.97877358490567% 0;
+  }
+
+.icon--monitor {
+    width: 481.6px;
+    height: 481.6px;
+    background-position: 14.354138156720413% 67.25847574421168%;
+  }
+
+.icon--musical-note {
+    width: 477.22px;
+    height: 477.22px;
+    background-position: 14.186904669942779% 83.75625262317753%;
+  }
+
+.icon--next {
+    width: 487.96px;
+    height: 487.96px;
+    background-position: 14.554222900472126% 16.909642132014753%;
+  }
+
+.icon--next-1 {
+    width: 477.18px;
+    height: 477.18px;
+    background-position: 28.365153216749558% 83.75510007499602%;
+  }
+
+.icon--padlock {
+    width: 482.8px;
+    height: 482.8px;
+    background-position: 58.144753288494734% 33.3034606369778%;
+  }
+
+.icon--paper-plane {
+    width: 469.04px;
+    height: 469.04px;
+    background-position: 55.80771556272154% 99.90222850399317%;
+  }
+
+.icon--phone-call {
+    width: 473.81px;
+    height: 473.81px;
+    background-position: 86.55136694576441% 16.328830763627117%;
+  }
+
+.icon--photo-camera {
+    width: 487.7px;
+    height: 487.7px;
+    background-position: 14.538193306112717% 33.7675655146221%;
+  }
+
+.icon--pie-chart {
+    width: 476.3px;
+    height: 476.3px;
+    background-position: 70.87296165384501% 83.72975203769302%;
+  }
+
+.icon--piggy-bank {
+    width: 487.6px;
+    height: 487.6px;
+    background-position: 29.072539786612623% 33.766399668554065%;
+  }
+
+.icon--placeholder {
+    width: 477px;
+    height: 477px;
+    background-position: 56.71657754010696% 83.74991400068798%;
+  }
+
+.icon--printer {
+    width: 482.5px;
+    height: 482.5px;
+    background-position: 0 67.2793382733069%;
+  }
+
+.icon--reload {
+    width: 489.71px;
+    height: 489.71px;
+    background-position: 0 0;
+  }
+
+.icon--settings {
+    width: 478.7px;
+    height: 478.7px;
+    background-position: 72.43943762446868% 16.4871097649124%;
+  }
+
+.icon--settings-1 {
+    width: 480.3px;
+    height: 480.3px;
+    background-position: 57.30216790079401% 67.22836381168854%;
+  }
+
+.icon--share {
+    width: 481.6px;
+    height: 481.6px;
+    background-position: 28.68150175522104% 67.25847574421168%;
+  }
+
+.icon--shopping-bag {
+    width: 489px;
+    height: 489px;
+    background-position: 14.60077519379845% 0;
+  }
+
+.icon--shopping-cart {
+    width: 486.57px;
+    height: 486.57px;
+    background-position: 43.69404396933647% 16.81559174854958%;
+  }
+
+.icon--shuffle {
+    width: 471.48px;
+    height: 471.48px;
+    background-position: 86.49155277145027% 81.24613736558032%;
+  }
+
+.icon--speaker {
+    width: 485px;
+    height: 485px;
+    background-position: 43.41870160810006% 50.56260779579165%;
+  }
+
+.icon--star {
+    width: 487.22px;
+    height: 487.22px;
+    background-position: 43.702507315735836% 0;
+  }
+
+.icon--tag {
+    width: 487.85px;
+    height: 487.85px;
+    background-position: 29.170379863791485% 0;
+  }
+
+.icon--upload {
+    width: 486.3px;
+    height: 486.3px;
+    background-position: 0 50.58529178313835%;
+  }
+
+.icon--upload-1 {
+    width: 471.2px;
+    height: 471.2px;
+    background-position: 13.974731597366391% 99.97631145289753%;
+  }
+
+.icon--vector {
+    width: 487.8px;
+    height: 487.8px;
+    background-position: 29.16994515975203% 16.8444858780471%;
   }
